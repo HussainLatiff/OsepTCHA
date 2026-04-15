@@ -1,0 +1,47 @@
+{
+    "emoji-set-1": {
+        "targetAsset": "assets/emojis/emoji-set-1/target-smile.png",
+        "fillerAssets": [
+            "assets/emojis/emoji-set-1/emoji-1.png",
+            "assets/emojis/emoji-set-1/emoji-2.png",
+            "assets/emojis/emoji-set-1/emoji-3.png"
+        ],
+        "targetLabel": "😁"
+    },
+    "emoji-set-2": {
+        "targetAsset": "assets/emojis/emoji-set-2/target-tear.png",
+        "fillerAssets": [
+            "assets/emojis/emoji-set-2/emoji-1.png",
+            "assets/emojis/emoji-set-2/emoji-2.png",
+            "assets/emojis/emoji-set-2/emoji-3.png"
+        ],
+        "targetLabel": "🥲"
+    },
+    "emoji-set-3": {
+        "targetAsset": "assets/emojis/emoji-set-3/target-halfsmile.png",
+        "fillerAssets": [
+            "assets/emojis/emoji-set-3/emoji-1.png",
+            "assets/emojis/emoji-set-3/emoji-2.png",
+            "assets/emojis/emoji-set-3/emoji-3.png"
+        ],
+        "targetLabel": "😀"
+    },
+    "shape-set-1": {
+        "targetAsset": "assets/shapes/shape-set-1/target-triangle.png",
+        "fillerAssets": [
+            "assets/shapes/shape-set-1/triangle-1.png",
+            "assets/shapes/shape-set-1/triangle-2.png",
+            "assets/shapes/shape-set-1/triangle-3.png"
+        ],
+        "targetLabel": "green"
+    },
+    "shape-set-2": {
+        "targetAsset": "assets/shapes/shape-set-2/target-circle.png",
+        "fillerAssets": [
+            "assets/shapes/shape-set-2/circle-1.png",
+            "assets/shapes/shape-set-2/circle-2.png",
+            "assets/shapes/shape-set-2/circle-3.png"
+        ],
+        "targetLabel": "blue"
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OsepTCHA Widget Sandbox</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* Container styles applied via JS, but we can provide host styles here */
+    #captcha-container {
+      background: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Container where the widget will mount itself -->
+  <div id="captcha-container"></div>
+
+  <!-- Load the widget logic -->
+  <script type="module" src="/src/widget.js"></script>
+
+  <!-- Initialization script for sandbox testing -->
+  <script>
+    // Wait for the script to load then initialize
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.OsepTCHA) {
+        window.OsepTCHA.render('#captcha-container', {
+          siteKey: '5fb0fbab-94f5-440f-9001-992a018564e0',
+          backendUrl: 'http://localhost:3001'
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
